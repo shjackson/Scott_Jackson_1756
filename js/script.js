@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   /******** Homepage Carousel - All Photos *********/
-
+  
   // Build API Request
   var olapicEndpoint = "https://photorankapi-a.akamaihd.net/customers/215757/media/recent?rights_given=0&include_tagged_galleries=0&auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18&version=v2.2";
 
@@ -12,17 +12,17 @@ $(document).ready(function() {
     data: {
       format: "json"
     },
-    success: function(data) {     
+    success: function(data) {
       
-      // Create array of photos pulled from the Olapic API response
+      // Create array of photos pulled from the Olapic API response		
       var mediaArray = data.data._embedded.media;
 
       // Loop through the mediaArray
       for (x=0; x < mediaArray.length; x++) {
-		var mediaItem = mediaArray[x];
-		var olapicImage = mediaItem.images.mobile;
+        var mediaItem = mediaArray[x];
+        var olapicImage = mediaItem.images.mobile;
 
-
+		
       // Append the images to the carousel
         $(".owl-carousel").append("<div class='item olapic-image'><img src='" + olapicImage + "'></div>");
       };

@@ -1,12 +1,12 @@
 .olapic-api-example {
-	max-width: 1400px;
+	max-width:1400px;
 	position:relative;
 	width:100%;
 	margin:0 auto;
 }
 
 .owl-carousel .owl-stage-outer {
-	max-width:450px;
+	max-width:1275px;
 	width:100%;
 	margin:0 auto;
 }
@@ -35,11 +35,11 @@
 }
 
 .owl-prev {
-	
+	float:left;
 }
 
 .owl-next {
-	
+	float:right;
 }
 
 .owl-theme .owl-nav [class*=owl-] {
