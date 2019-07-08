@@ -14,19 +14,19 @@ I created a repository on Github called "shjackson/Scott_Jackson_1756" and uploa
 
 After opening the files in the zip called "olapic-js-assessment-201906.zip" (hereinafter referred to as ZIP), I double clicked on index.html. It appeared blank in the web browser. Using Notepad++, I examined the code in the index.html and the files in the /js and /css directories.
 
-After some intitial consulting on http://apiv2-docs.photorank.me/index.html
+After some initial consulting on http://apiv2-docs.photorank.me/index.html
 
 I found a link to the following tutorial:
 
 http://developer.olapic.com/articles/tutorial-apiv2-carousel-example.html
 
-This tutorial (hereinafter reeferred to as ONLINE) seemed to contain a close match of the existing code that was included in the test files within the ZIP. I copy/pasted this ONLINE version of the script.js code and compared it side-by-side in Excel with the ZIP version of the script.js code.
+This tutorial (hereinafter referred to as ONLINE) seemed to contain a close match of the existing code that was included in the test files within the ZIP. I copy/pasted this ONLINE version of the script.js code and compared it side-by-side in Excel with the ZIP version of the script.js code.
 
 I noticed immediately that the ONLINE version of the script.js code was longer, so I assumed that I would need to find the differences between the online version of the code and merge them with the ZIP version.
 
 In addition to blocks of code that were present in the ONLINE version but missing in the ZIP version, I noticed that a few parameters were set to "False" in the ZIP version, but set to "True" for the online version. These parameters were "nav: false" and "autoplay: false" in the ZIP version. I set both of them to "true" to match the ONLINE version.
 
-Since the ONLINE version is meant as a "production" tutorial for general use, I assumed that the wherever there was a "true/false" discrepency (as mentioned above), I would need to change the use the settings included in the ONLINE version.
+Since the ONLINE version is meant as a "production" tutorial for general use, I assumed that the wherever there was a "true/false" discrepancy (as mentioned above), I would need to change the use the settings included in the ONLINE version.
 
 When examining the differences between the ZIP version of index.html and the ONLINE version, the only noticeable difference was on line 21:
 
@@ -65,13 +65,10 @@ I visually compared the GITHUB versions of the script.js and index.html files wi
 While comparing the "main.css" file between its ZIP version and ONLINE version, I discovered this key difference:
 
 ZIP:
-
 .owl-carousel .owl-stage-outer {  
 	max-width:450px; 
 	
 GITHUB:
-
- 
 .owl-carousel .owl-stage-outer {  
 	max-width:1275px; 
 	
@@ -89,7 +86,7 @@ GITHUB:
 
 ZIP:
 .owl-next {   
-
+
 }
 
 GITHUB:
@@ -114,7 +111,7 @@ Please confirm and update the ONLINE version if necessary.
 
 .......
 
-At this point, I had determined that the GITHUB versions of the files  were functional, and had determined the key differences between the GITHUB version and the current state of my ZIP versions. I created a backup of my ZIP versions, and over-wrote my live repository version of the ZIP files with all of the GITHUB versions of the same files. Then I commited those versions to my Github repository (shjackson/Scott_Jackson_1756).
+At this point, I had determined that the GITHUB versions of the files  were functional, and had determined the key differences between the GITHUB version and the current state of my ZIP versions. I created a backup of my ZIP versions, and over-wrote my live repository version of the ZIP files with all of the GITHUB versions of the same files. Then I committed those versions to my Github repository (shjackson/Scott_Jackson_1756).
 
 Note: I mispelled the word "functional" when uploading the corrected versions of the files. I couldn't figure out how to added a change summary, so the typo is still there. Sorry about that.
 
