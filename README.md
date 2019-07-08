@@ -113,7 +113,7 @@ Please confirm and update the ONLINE version if necessary.
 
 At this point, I had determined that the GITHUB versions of the files  were functional, and had determined the key differences between the GITHUB version and the current state of my ZIP versions. I created a backup of my ZIP versions, and over-wrote my live repository version of the ZIP files with all of the GITHUB versions of the same files. Then I committed those versions to my Github repository (shjackson/Scott_Jackson_1756).
 
-Note: I mispelled the word "functional" when uploading the corrected versions of the files. I couldn't figure out how to added a change summary, so the typo is still there. Sorry about that.
+Note: I mispelled the word "functional" when uploading the corrected versions of the files. I couldn't figure out how to edit a change summary, so the typo is still there. Sorry about that.
 
 I updated this Readme.
 
